@@ -1,0 +1,9 @@
+test:
+  assertReturnCode: 0
+
+  input:
+    - Hello world!
+    - See you later!
+
+  execute:
+    - [echo $(input)]
