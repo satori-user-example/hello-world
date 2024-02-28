@@ -1,0 +1,7 @@
+settings:
+  name: Satori Hello World
+
+test:
+  assertStdoutContains: "Hello World"
+  echo:
+  - [ echo Hello World ]
