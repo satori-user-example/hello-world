@@ -45,7 +45,7 @@ def main():
 
     show_products(_PRODUCT_DF)
     print()
-    print(is_product_available('Chocolate', _PRODUCT_DF)) #comentario para el examinador: Si en vez de chocolate, el parametro fuera limon, el output seria "False"
+    print(is_product_available('Chocolate', _PRODUCT_DF))
 
 if __name__ == '__main__':
     main()
